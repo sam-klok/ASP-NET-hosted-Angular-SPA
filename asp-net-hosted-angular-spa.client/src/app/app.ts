@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, signal } from '@angular/core';
+import { Component, signal, OnInit } from '@angular/core';
+import { WeatherForecast } from './models/weather-forecast';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   standalone: false,
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App implements OnInit {
   public forecasts: WeatherForecast[] = [];
