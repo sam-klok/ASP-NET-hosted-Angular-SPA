@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="asp-net-hosted-angular-spa.client/asp-net-hosted-angular-spa.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="ASP-NET-hosted-Angular-SPA.Server/ASP-NET-hosted-Angular-SPA.Server.csproj" />
+</Solution>
