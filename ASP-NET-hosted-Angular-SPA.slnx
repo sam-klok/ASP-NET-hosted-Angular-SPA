@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="02 errors on start.JPG" />
+    <File Path="03 solution structure after creation.JPG" />
+    <File Path="Angular and ASP.NET Core template used.png" />
+    <File Path="ReadMe.md" />
+  </Folder>
   <Project Path="asp-net-hosted-angular-spa.client/asp-net-hosted-angular-spa.client.esproj">
     <Build />
     <Deploy />
