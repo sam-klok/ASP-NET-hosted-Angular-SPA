@@ -10,11 +10,16 @@ import { WeatherForecast } from './models/weather-forecast';
 })
 export class App implements OnInit {
   public forecasts: WeatherForecast[] = [];
+  public hideServerData = true;
 
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
     this.getForecasts();
+  }
+
+  toggleHide() {
+    this.hideServerData = !this.hideServerData;
   }
 
   getForecasts() {
