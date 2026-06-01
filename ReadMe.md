@@ -8,3 +8,6 @@ Result app:
 
 ![11 data loaded and displayed](11%20data%20loaded%20and%20displayed.JPG)
 
+Make sure that you configure solution to run both projects (Angular and .Net) at the same time. You can do that by right clicking on solution and selecting "Set Startup Projects...". Then select "Multiple startup projects" and set both projects to "Start".
+
+![start both projects configuration](06%20configure%20solution%20to%20start%20server%20and%20a%20client.png)
